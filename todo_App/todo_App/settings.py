@@ -11,8 +11,8 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 """
 SuperUser = {
-    "name" : "emre",
-    "password" : "1234"
+    "name" : "secret",
+    "password" : "cat"
 }
 
 """
