@@ -1,8 +1,5 @@
-from django.shortcuts import render
-
-# Costumize 
+from django.shortcuts import render 
 from django.http import JsonResponse
-# Gerçekten bi json response dönmek istediğim için doc içerisinden import alıyorum:
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from .serializers import TaskSerializer
